@@ -1,46 +1,3 @@
-// let paragraph = document.getElementById('paragraph');
-
-// console.log(paragraph);// <== <p id="paragraph">What is your name?</p>
-
-// let h2Tag = document.createElement('h2');
-// h2Tag.innerHTML = "Elephant";
-// let parent = document.getElementsByTagName('body')[0];
-// parent.appendChild(h2Tag);
-// console.log(h2Tag);// <== <h2></h2>
-
-// let parent = document.getElementById("content");
-// let title = document.getElementById('title')
-
-// parent.removeChild(title);
-
-// let contentDiv = document.getElementById('content');
-// contentDiv.innerHTML = "";// clears the whole element
-
-// let button = document.getElementById("add-item-button");
-// // let button2 = document.getElementById("add-item-button2");
-// const buttonsClick = () => console.log("something");
-
-// button.addEventListener("click", buttonsClick);
-
-// input = document.getElementsByTagName('input')[0];
-// console.log(input.value);//=> ""
-
-const changeSrc = (src) => {
-  console.log("object");
-  const sourceOne =
-    "https://ichef.bbci.co.uk/news/640/cpsprodpb/150EA/production/_107005268_gettyimages-611696954.jpg";
-  const sourceTwo =
-    "https://dictionary.cambridge.org/es/images/thumb/cat_noun_001_02368.jpg";
-
-  const img = document.getElementsByTagName("img")[0];
-  console.log(img);
-  if (src === 1) {
-    img.src = sourceOne;
-  } else if (src === 2) {
-    img.src = sourceTwo;
-  }
-};
-
 // getElementById + innerHTML
 // console.log("JS connected"); // <== just a quick check up to make sure js doc is connected properly
 
@@ -104,3 +61,51 @@ const changeSrc = (src) => {
 // } else {
 //   el.className = 'active';
 // }
+
+
+// Select element by ID
+// let paragraph = document.getElementById('paragraph');
+
+// console.log(paragraph);// <== <p id="paragraph">What is your name?</p>
+
+// Create element, assign text, append to DOM
+// let h2Tag = document.createElement('h2');
+// h2Tag.innerHTML = "Elephant";
+// let parent = document.getElementsByTagName('body')[0];
+// parent.appendChild(h2Tag);
+// console.log(h2Tag);// <== <h2></h2>
+
+// Remove element from DOM
+// let parent = document.getElementById("content");
+// let title = document.getElementById('title')
+
+// parent.removeChild(title);
+
+// Clear element content
+// let contentDiv = document.getElementById('content');
+// contentDiv.innerHTML = "";// clears the whole element
+
+// Events and event handling
+// let button = document.getElementById("add-item-button");
+// // let button2 = document.getElementById("add-item-button2");
+// const buttonsClick = () => console.log("something");
+
+// button.addEventListener("click", buttonsClick);
+
+
+// Change source image Vicky example :)
+// const changeSrc = (src) => {
+//   console.log("object");
+//   const sourceOne =
+//     "https://ichef.bbci.co.uk/news/640/cpsprodpb/150EA/production/_107005268_gettyimages-611696954.jpg";
+//   const sourceTwo =
+//     "https://dictionary.cambridge.org/es/images/thumb/cat_noun_001_02368.jpg";
+
+//   const img = document.getElementsByTagName("img")[0];
+//   console.log(img);
+//   if (src === 1) {
+//     img.src = sourceOne;
+//   } else if (src === 2) {
+//     img.src = sourceTwo;
+//   }
+// };
